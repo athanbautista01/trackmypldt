@@ -19,6 +19,12 @@
         //Insert new student into MySQL
         if ($conn->query($query) === TRUE) {
             $message = "Created user with id: " . $conn->insert_id;
+            ?>
+<script>
+    alert('Successfully Added Internet Service Downtime/Maintenance!.');
+    window.location.href='maintenance.php';
+</script>
+<?php
         } else {
             die ("Insert failed: ". $conn->error);
         }
@@ -76,6 +82,7 @@
                             <div class="col-lg-9">
                                 <select class="input form-control" id="Location" name="Location">
                                      <option value="City"></option>
+                                     <option value="ALL">ALL</option>
                                      <option value="Antipolo City">Antipolo City</option>
                                      <option value="Bacoor City">Bacoor City</option>
                                      <option value="Batangas City">Batangas City</option>

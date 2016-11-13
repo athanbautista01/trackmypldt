@@ -25,7 +25,7 @@ include("include/header.php");
           echo '
           <li class="list-group-item active">My Account</li>
           <li class="list-group-item"><a href="Lusers.php">Users</a></li>
-          /*<li class="list-group-item"><a href="billing.php">Billing Statements</a></li>*/
+          <li class="list-group-item"><a href="billing.php">Billing Statements</a></li>
           <li class="list-group-item"><a href="Linternet.php">Internet Downtime Reports</a></li>
           <li class="list-group-item"><a href="maintenance.php">Maintenance</a></li>
           <li class="list-group-item"><a href="include/logout.php">Logout</a></a></li>
@@ -44,6 +44,7 @@ include("include/header.php");
     </div>
     <div class="col-lg-9">
       <div class="panel panel-danger"  align="left">
+       <div class="panel-heading"><h4><b><a href="addmaintenance.php">Add Internet Service Downtime/Maintenance</a></b></h4></div>
         <div class="panel-heading"><h4><b>Scheduled Maintenance/Downtime</b></h4></div>
         <div class="panel-body">
           <div class="col-lg-12 gg">

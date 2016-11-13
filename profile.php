@@ -39,7 +39,7 @@ if ($result->num_rows) {
                     echo '
                     <li class="list-group-item active">My Account</li>
                     <li class="list-group-item"><a href="Lusers.php">Users</a></li>
-                    /*<li class="list-group-item"><a href="billing.php">Billing Statements</a></li>*/
+                    <li class="list-group-item"><a href="billing.php">Billing Statements</a></li>
                     <li class="list-group-item"><a href="Linternet.php">Internet Downtime Reports</a></li>
                     <li class="list-group-item"><a href="Lmaintenance.php">Maintenance</a></li>
                     <li class="list-group-item"><a href="include/logout.php">Logout</a></a></li>

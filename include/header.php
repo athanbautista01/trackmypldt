@@ -38,7 +38,7 @@
               <nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="index.php">HOME</a></li>
-                  <li><a href="forums.php">FORUMS</a></li>
+                  <li><a href="index.php">FORUMS</a></li>
                   <li><a href="about.php">ABOUT US</a></li>
                   <?php
                    if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
