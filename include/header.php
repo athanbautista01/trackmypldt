@@ -9,10 +9,11 @@
 
   <!-- Bootstrap -->
   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap/css/bootstrap-notifications.css" rel="stylesheet">
   <!-- Custom css -->
   <link href="assets/custom/css/style.css" rel="stylesheet">
   <!-- Fonts -->
-  <link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
   <!-- FAVICON -->
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">

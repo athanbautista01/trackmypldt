@@ -66,31 +66,11 @@ include("include/header.php");
                 ?>
                 
                   <div class="dizz thumbnail col-lg-12">
-                    <h3>Title: <input type="hidden" name="MaintenanceID" value="<?php echo $row["Title"] ?>">  
-                    <input class="input form-control" type="text" name="Title" value="<?php echo $row["Title"] ?>"></h3>
-                    <h3>Remarks: <textarea class="input form-control" type="textbox" name="Remarks" rows="1">
-                    <?php echo $row["Remarks"] ?>
-                  </textarea></h3>
-                  <h3>Downtime Start Date: <input class="input form-control" type="date" name="DowntimeStartDate" value="<?php echo $row["DowntimeStartDate"] ?>"> </h3>
-                  <h3>Downtime Start Time: <input class="input form-control" type="time" name="DowntimeStartTime" value="<?php echo $row["DowntimeStartTime"] ?>">  </h3>
-                  <h3>Location: <select class="input form-control" id="Location" name="Location">
-                  <option value="<?php echo $row["Location"] ?>">Antipolo City</option>
-                  <option value="Antipolo City">Antipolo City</option>
-                  <option value="Bacoor City">Bacoor City</option>
-                  <option value="Batangas City">Batangas City</option>
-                  <option value="Cagayan de Oro">Cagayan de Oro</option>
-                  <option value="Cavite City">Cavite City</option>
-                  <option value="Davao City">Davao City</option>
-                  <option value="Las Piñas City">Las Piñas City</option>
-                  <option value="Makati City">Makati City</option>
-                  <option value="Manila City">Manila City</option>
-                  <option value="Caloocan City">Caloocan City</option>
-                  <option value="Tarlac City">Tarlac City</option>
-                  <option value="Quezon City">Quezon City</option>
-                </select></h3>
-                <div align="right"><button class='btn btn-success' type='submit' name='refresh' title="Refresh">
-                <i class="fa fa-refresh"></i></button>
-                <a href="updatemaintenance.php?ID1=<?php echo $row['MaintenanceID'] ?>" class="btn btn-danger" role="button" title="Delete"><i class="fa fa-trash-o" onclick="myFunction()"></i></a></div><br>
+                    <h3>Title: <?php echo $row["Title"] ?></h3><br>
+                    <h3>Remarks: <?php echo $row["Remarks"] ?></h3><br>
+                  <h3>Downtime Start Date: <?php echo $row["DowntimeStartDate"] ?></h3><br>
+                  <h3>Downtime Start Time: <?php echo $row["DowntimeStartTime"] ?></h3><br>
+                  <h3>Location: <?php echo $row["Location"] ?></h3><br>
               </form>
               </div>
               <?php
