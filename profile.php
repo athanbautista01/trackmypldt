@@ -32,7 +32,7 @@ if ($result->num_rows) {
                       <li class="list-group-item active">My Account</li>
                       <li class="list-group-item"><a href="include/billing.php">Billing Statements</a></li>
                       <li class="list-group-item"><a href="include/internet.php">Internet Downtime Reports</a></li>
-                      <li class="list-group-item"><a href="include/maintenance.php">Maintenance</a></li>
+                      <li class="list-group-item"><a href="maintenance.php">Maintenance</a></li>
                       <li class="list-group-item"><a href="include/logout.php">Logout</a></a></li>
                       ';
                   } elseif (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['qtd'] == 1){

@@ -43,7 +43,8 @@
                    if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
                   $qid = $_SESSION['userid'];
                   $qld = $_SESSION['qtd'];
-                    echo "<li><a href='profile.php'>ACCOUNT</a></li>";
+                  $name = $_SESSION['firstName'];
+                    echo "<li><a href='profile.php'>$name</a></li>";
                   } else {
                     echo "<li><a href='login.php'>LOGIN</a></li>";
                   }
