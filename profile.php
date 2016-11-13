@@ -30,16 +30,16 @@ if ($result->num_rows) {
                       $qld = $_SESSION['qtd'];
                       echo '
                       <li class="list-group-item active">My Account</li>
-                      <li class="list-group-item"><a href="include/billing.php">Billing Statements</a></li>
-                      <li class="list-group-item"><a href="include/internet.php">Internet Downtime Reports</a></li>
+                      <li class="list-group-item"><a href="billing.php">Billing Statements</a></li>
+                      <li class="list-group-item"><a href="internet.php">Internet Downtime Reports</a></li>
                       <li class="list-group-item"><a href="maintenance.php">Maintenance</a></li>
                       <li class="list-group-item"><a href="include/logout.php">Logout</a></a></li>
                       ';
                   } elseif (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['qtd'] == 1){
                     echo '
                     <li class="list-group-item active">My Account</li>
-                    <li class="list-group-item"><a href="include/users.php">Users</a></li>
-                    <li class="list-group-item"><a href="include/Lbilling.php">Billing Statements</a></li>
+                    <li class="list-group-item"><a href="users.php">Users</a></li>
+                    /*<li class="list-group-item"><a href="billing.php">Billing Statements</a></li>*/
                     <li class="list-group-item"><a href="include/Linternet.php">Internet Downtime Reports</a></li>
                     <li class="list-group-item"><a href="include/Lmaintenance.php">Maintenance</a></li>
                     <li class="list-group-item"><a href="include/logout.php">Logout</a></a></li>

@@ -47,7 +47,7 @@ include("include/header.php");
                         ?>
 
             <div class="col-md-10" align="left">
-                <h3><a href="reportSummaryDetails.php?ID=<?php echo $row['reportid'] ?>">Service Downtime / <?php echo $row['Date'] . " / " . $row['Time'] ?></a>
+                <h3><a href="detailedreport.php?ID=<?php echo $row['reportid'] ?>">Service Downtime / <?php echo $row['Date'] . " / " . $row['Time'] ?></a>
                 </h3>
             </div>
 
